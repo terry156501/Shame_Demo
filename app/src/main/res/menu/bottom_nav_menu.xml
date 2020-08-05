@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/baseline_change_history_black_24dp"
+        android:title="@string/title_history" />
+
+    <item
+        android:id="@+id/navigation_new"
+        android:icon="@drawable/baseline_add_circle_outline_black_24dp"
+        android:title="@string/title_new" />
+
+    <item
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/baseline_crop_3_2_black_24dp"
+        android:title="@string/title_friends" />
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- 失去焦点 -->
+    <item android:drawable="@drawable/rounded_rectangle" android:state_focused="false" />
+
+    <!-- 选中 -->
+    <item android:drawable="@drawable/rounded_rectangle_focused" android:state_focused="true" />
+
+    <!-- 默认 -->
+    <item android:drawable="@drawable/rounded_rectangle" />
+
+</selector>

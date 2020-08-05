@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基础主题中的颜色 暂时不用-->
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="textColor">#000000</color>
+
+
+    <!-- 非黑即白 -->
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+
+    <!-- 透明色 -->
+    <color name="transparent">#90FFFFFF</color>
+
+    <!-- 时钟 -->
+    <color name="text_gray_ccc">#808080</color>
+
+</resources>

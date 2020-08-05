@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_new">
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.terry.shame.ui.home.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_new"
+        android:name="com.terry.shame.ui.dashboard.NewFragment"
+        android:label="@string/title_new"
+        tools:layout="@layout/fragment_new" />
+
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.terry.shame.ui.notifications.FriendsFragment"
+        android:label="@string/title_friends"
+        tools:layout="@layout/fragment_friends" />
+</navigation>

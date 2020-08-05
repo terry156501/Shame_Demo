@@ -1,0 +1,47 @@
+<resources>
+
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+    <!-- 提交按钮 -->
+    <style name="submit_Button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/selector_submit_button</item>
+    </style>
+
+    <!-- 输入框 -->
+    <style name="editTextStyle">
+        <item name="android:layout_width">355dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColorHint">@color/Black</item>
+        <item name="android:background">@drawable/selector_edittext</item>
+
+    </style>
+    <!-- item-->
+    <style name="itemStyle">
+    <item name="android:textColorHint">#666666</item>
+    <item name="android:background">@drawable/selector_edittext</item>
+    </style>
+
+
+    <!-- 注册标题 -->
+    <style name="register_headline">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+    <declare-styleable name="CountDownProgressBar">
+        <attr name="countDown_circleWidth" format="dimension" />
+        <attr name="countDown_centerTextSize" format="dimension" />
+        <attr name="countDown_betaAngle" format="integer" />
+        <attr name="countDown_firstColor" format="color" />
+        <attr name="countDown_secondColor" format="color" />
+        <attr name="countDown_centerTextColor" format="color" />
+        <attr name="countDown_isShowGradient" format="boolean" />
+    </declare-styleable>
+
+</resources>

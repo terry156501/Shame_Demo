@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".ui.dashboard.NewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            style="@style/editTextStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:id="@+id/et_name"
+            android:hint="                              Name"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            style="@style/editTextStyle"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:id="@+id/et_time"
+            android:hint="                              Time"
+            android:paddingLeft="20dp" />
+
+
+
+        <Button
+            android:id="@+id/btn_start"
+            style="@style/submit_Button"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="true"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
